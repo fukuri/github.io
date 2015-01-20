@@ -1,0 +1,469 @@
+body {
+  padding-top:64px;
+  background-color:#FFFFFF;
+  border:0;
+  color:#000000;
+  font-family:Arial, Helvetica, ヒラギノ角ゴ, メイリオ;
+  font-size:14px;
+  margin:0 auto;
+  padding:64px 0 0;
+}
+
+div {
+  background-position:50% 50%;
+  background-repeat:no-repeat;
+  border:0;
+  margin:0;
+  padding:0;
+}
+
+
+#block_outer {
+  margin:0 auto;
+  padding:0;
+  width:100%;
+}
+
+
+div.block {
+  margin:0 auto;
+  padding:0 16px;
+  width:980px;
+}
+
+div.block_title{
+  margin:50px auto;
+  padding:0 16px;
+  width:980px;
+}
+
+
+/*メニュー*/
+
+#menu {
+  background-color:#ffffff;
+  color:#000000;
+  height:64px;
+  left:0;
+  margin:0 auto;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:99;
+}
+
+#menu_outer {
+  background-color:#ffffff;
+  color:#000000;
+  height:100%;
+  margin:0 auto;
+  max-width:1280px;
+  position:relative;
+  z-index:99;
+}
+
+#menu_inner {
+  background-color:#ffffff;
+  color:#000000;
+  height:100%;
+  margin:0 auto;
+  position:relative;
+  width:980px;
+  z-index:99;
+}
+
+.menu_list {
+  border:0;
+  float:left;
+  height:100%;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  width:980px;
+}
+
+
+.menu_list li {
+  background-color:#ffffff;
+  border:0;
+  color:#000000;
+  display:block;
+  float:left;
+  font-size:16px;
+  height:100%;
+  line-height:64px;
+  margin:0;
+  padding:0;
+  text-align:center;
+  width:100px;
+}
+
+
+.menu_list li.logo {
+  background-color:#ffffff;
+  float:left;
+  height:64px;
+  width:260px;
+}
+
+
+.menu_list a {
+  border:0;
+  color:#000000;
+  display:block;
+  float:left;
+  font-size:14px;
+  height:100%;
+  line-height:64px;
+  margin:0;
+  padding:0;
+  text-align:center;
+  text-decoration:none;
+  width:100px;
+}
+
+.menu_list a:visited{
+  color: black;
+  text-decoration:none;
+}
+
+.menu_list a.logo {
+  width:100%;
+}
+
+
+#logo img {
+  display:block;
+  margin:14px 0 0;
+}
+
+
+#menu_name li a:hover {
+  color: #FFF;
+  background-color: green;
+  text-decoration:none;
+}
+
+
+#menu_name a:active{
+  color: green;
+  text-decoration:none;
+}
+
+/*top COGOOとは */
+
+.carousel-inner img{
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+
+
+#top {
+  background-size:cover;
+  height:645px;
+  padding:0;
+  width:100%;
+}
+
+
+#title_about {
+  background-image:url(./img/title_about.png);
+  background-size:cover;
+  width:401px;
+  height:59px;
+  padding:0;
+}
+
+#message {
+  text-align:center;
+  font-size:18px;
+  font-weight:bold;
+  line-height:200%;
+  margin: 0 auto 30px;
+}
+
+
+/* COGOOを使う */
+
+#use_cogoo {
+  background-image:url(./img/use_cogoo.png);
+  background-size:cover;
+  height:500px;
+  padding:0;
+  width:100%;
+  position: relative;
+}
+
+#use_cogoo img{
+  position: absolute;
+  right: 120px;
+  bottom: 200px;
+}
+
+/*top 導入大学 */
+
+#title_univ {
+  background-image:url(./img/title_univ.png);
+  background-size:cover;
+  width:401px;
+  height:59px;
+  padding:0;
+}
+
+/*top コグ活 */
+
+#title_students {
+  background-image:url(./img/title_students.png);
+  background-size:cover;
+  width:401px;
+  height:59px;
+  padding:0;
+}
+
+#cogukatsu{
+  width:980px;
+  margin:0 auto;
+  text-align:center;
+  margin: 0 auto 50px;
+}
+
+table.activity{
+  width: 980px;
+    border-spacing: 30px 20px;
+    margin:10px
+    text-align:right;
+    font-size:14px;
+}
+
+table.activity td{
+  padding: 16px;
+}
+
+#cogukatsu_mate{
+  background-image:url(./img/cogukatsu.png);
+  background-size:cover;
+  height: 450px;
+  width:100%;
+}
+
+/*top award */
+
+#title_award {
+  background-image:url(./img/title_award.png);
+  background-size:cover;
+  width:401px;
+  height:59px;
+  padding:0;
+}
+
+
+#award{
+  width:980px;
+  margin:0 auto;
+  margin: 0 auto 50px;
+}
+
+table.award{
+  border-spacing: 55px 0px;
+  padding:10px;
+}
+
+#footer_img{
+  background-image:url(./img/home_footer.png);
+  background-size:cover;
+  height: 645px;
+  width:100%;
+}
+
+
+/* サポーター */
+#supporter{
+    background-color:green;
+    color:#ffffff;
+    padding:50px;
+    text-align:center;
+    font-size:18px;
+    line-height:180%;
+}
+
+#supporter_img {
+  background-image:url(./img/supporter_top.png);
+  background-size:cover;
+  height:645px;
+  padding:0;
+  width:100%;
+}
+
+.join_cogoo{
+    text-align:center;
+    background-color:green;
+    margin:30px 0 0 0;
+}
+
+#title_supporter {
+background-image:url(./img/title_supporter.png);
+background-size:cover;
+width:401px;
+height:59px;
+padding:0;
+}
+
+#supporter1{
+  width:980px;
+  margin:0 auto;
+}
+
+table.supporter1{
+  border-spacing: 30px 20px;
+}
+
+#supporter2{
+  width:980px;
+  margin:0 auto 30px auto;
+}
+
+table.supporter2{
+  border-spacing: 15px 0px;
+  padding:10px;
+  border-top:1px gray solid;
+}
+
+#supporter2 td.logo{
+  width:100px;
+  height:100px;
+  text-align:center;
+  vertical-align:center;
+}
+
+#supporter2 td.company{
+  font-size:12px;
+  width:350px;
+}
+
+#supporter2 td.comment{
+  font-size:12px;
+}
+
+#supporter2 td.name{
+  font-size:11px;
+  text-align:right;
+}
+
+#supporter_footer_img{
+  background-image:url(./img/supporter_footer.png);
+  background-size:cover;
+  height: 645px;
+  width:100%;
+}
+
+
+/*お問い合わせ*/
+
+#contact {
+  width:980px;
+  margin:0 auto 200px;
+}
+
+#contact h1{
+  font-size:30px;
+}
+
+
+
+#contact p{
+  font-size:18px;
+}
+
+
+/*プライバシーポリシー*/
+
+#p-policy {
+  width:980px;
+  margin:0 auto;
+}
+
+#p-policy h1{
+  font-size:30px;
+}
+
+#p-policy h2{
+  font-size:25px;
+}
+
+#p-policy p{
+  font-size:18px;
+}
+
+
+/*利用規約*/
+
+#u-policy {
+  width:980px;
+  margin:0 auto;
+}
+
+#u-policy h1{
+  font-size:30px;
+}
+
+#u-policy h2{
+  font-size:25px;
+}
+
+#u-policy p{
+  font-size:18px;
+}
+
+
+
+
+/*フッター*/
+
+#footer {
+  background-color:#000000;
+  color:#FFFFFF;
+  width:100%;
+  text-align:center;
+  overflow: hidden;
+  position: relative;
+}
+
+
+#footer ul {
+  list-style-type: none;
+  line-height:35px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+
+#footer ul li {
+  margin: 0 30px 0 0;
+  float:left;
+  position: relative;
+  left: -50%;
+}
+
+
+
+#footer li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+
+#footer li a:hover {
+  color: gray;
+}
+
+#copy {
+  background-color:#000000;
+  color:gray;
+  width:100%;
+  padding: 5px 0 10px 0;
+  text-align:center;
+}
